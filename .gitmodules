@@ -1,0 +1,3 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = git@gitee.com:RaiseMe/gohugo-theme-ananke.git
