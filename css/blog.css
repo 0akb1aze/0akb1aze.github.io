@@ -1,0 +1,81 @@
+.site-body {
+    background-color: #FFFFFF;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.menu a {
+    color: #313131;
+    font-size: 14px;
+}
+
+#nav-title:hover {
+    color: rgba(0,0,0,.95);
+    background-color: rgba(0,0,0,0)
+}
+
+.menu a:hover {
+color: #eb5055;
+outline: 0;
+}
+
+header {
+    background-color: rgba(147, 128, 108, 0.1);
+    width: 100%;
+}
+
+.header-content {
+    padding: 0.6em;
+}
+
+.site-content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 90px 0 0;
+}
+
+#site-content {
+    font-family: Microsoft Yahei,arial;
+}
+.site-footer {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+}
+
+.footer {
+    background: hsl(0, 0%, 25%);
+    color: hsl(0, 0%, 60%);
+    font-size: 0.85em;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 1.2rem 1.2rem;
+}
+
+.footer a {
+  padding-bottom: 1px;
+  border: 0;
+  color:  hsl(0, 0%, 90%);
+}
+
+.title {
+  padding-bottom: 1px;
+  border: 0;
+  color:  hsl(0, 0%, 90%);
+}
+
+.footer-item {
+    margin-top: 0.5rem;
+}
